@@ -1,4 +1,5 @@
 .menu{
+    position:absolute;
     width: 1480px;
     height: 50px;
     left: auto;right:auto;
@@ -73,7 +74,7 @@
     transform: rotate(104deg);
     }
 .bg2{
-    position: absolute;
+    position:relative;
     width: 1440px;
     height: 946px;
     left: 0px;
