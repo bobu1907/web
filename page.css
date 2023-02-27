@@ -1,0 +1,111 @@
+.menu{
+    width: 1480px;
+    height: 50px;
+    left: auto;right:auto;
+    top: 0px;
+
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+.back{
+    position:absolute;
+    width: 116px;
+    height: 18px;
+    left: 136px;
+    top: 18px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    
+    color: #209090;
+    
+}
+.muiten1{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 44px;
+    height: 0px;
+    left: 60px;
+    top: 25px;
+    
+    border: 2px solid #209090;
+    transform: rotate(180deg);
+}
+.muiten2{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 20px;
+    height: 0px;
+    left: 56px;
+    top: 31px;
+    
+    border: 2px solid #209090;
+    transform: rotate(45deg);
+    border-top-right-radius: 35%;
+    border-bottom-right-radius: 35%;
+}
+.muiten3{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 20px;
+    height: 0px;
+    left: 56px;
+    top: 19px;
+    
+    border: 2px solid #209090;
+    transform: rotate(-45deg);
+    border-top-right-radius: 35%;
+    border-bottom-right-radius: 35%;
+}
+.logo_page{
+    position:relative;
+    width: 0px;
+    height: 0px;
+    left: 99%;
+    top: 8px;
+    transform: rotate(104deg);
+    }
+.bg2{
+    position: absolute;
+    width: 1440px;
+    height: 946px;
+    left: 0px;
+    top: 0px;
+    
+    background: url(img/bg2.png);
+}
+.wscunglanha{
+    position: absolute;
+    width: 381px;
+    height: 37px;
+    left: 188px;
+    top: 293px;
+}
+.manha{
+    position: absolute;
+    width: 434px;
+    height: 77px;
+    left: 188px;
+    top: 337px;
+}
+.maytinh1{
+    position: absolute;
+    width: 934px;
+    height: 627px;
+    left: 513px;
+    top: 23px;
+}
+.rec{
+    position: absolute;
+    width: 1440px;
+    height: 471px;
+    left: 0px;
+    top: 946px;
+}
