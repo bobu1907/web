@@ -109,3 +109,13 @@
     left: 0px;
     top: 946px;
 }
+
+.option{
+    width: 140px;
+    margin-left: -30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 17px;
+    text-align: center;
+    
+    color: #209090;
+}
