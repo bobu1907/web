@@ -221,5 +221,228 @@
 .tbS3{
     display: flex;
     justify-content: center;
+    /* align-items: center; */
+    
+}
+
+.doiNgu01 h1{
+    position:relative;
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:900;
+    font-size: 120px;
+
+    color: #209090;
+    opacity: 0.2;
+    z-index: 1;
+}
+.doiNgu{
+    position:relative;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+    left: 90px;
+    top: -155px;
+    color: #209090;
+    z-index: 2;
+}
+.nhanSu{
+    position: relative;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 18px;
+    
+    color: #000000;
+    z-index: 3;
+    top: -160px;
+    white-space: 20px;
+    width: 440px;
+}
+.nhanSu span{
+    font-weight: 800;
+    font-size: 15px;    
+}
+/* =============================================================================== */
+
+.mamNon1{
+    position:absolute;
+    top: 2830px;
+    left: 0px;
+
+    z-index: 1;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.mamNon2{
+    position:absolute;
+    
+    left: 200px;
+    top: 2700px;
+
+    z-index: 2;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.mamNon3{
+    position:absolute;
+    
+    left: 570px;
+    top: 3050px;
+
+    z-index: 3;
+    
+}
+.s4{
+    padding-left: 790px;
+    margin-top: -100px;
+}
+.s4c1{
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+
+    color: #209090;
+}
+.s4c2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    
+    color: #000000;
+    
+    /* border-color: black;
+    border-style: solid; */
+    width: 450px;
+}
+.s4c3456{
+    display: flex;
+}
+.s4c3{
+    width: 90px;
+
+
+
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    background-color: #209090;
+    padding: 5px;
+    border-radius: 20px;
+}
+.s4c456{
+    padding: 5px;
+    padding-right: 20px;
+    width: 90px;
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    
+    color: #209090;
+}
+/* .tiem{
+    border-color: #000000;
+    border-style: solid;
+} */
+.tiem ul li p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+color: #000000;
+}
+.tiem ul li{
+    list-style-type: disc;
+    color:#209090; 
+}
+
+.shops tr td{
+    padding:20px;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background: #209090;
+}
+.f5{
+    width: 100%;
+    height: 300px;
+    margin-top: 200px;
+    /* border-color: #000000;
+    border-style: solid; */
+    
+}
+.f5d1{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
     align-items: center;
+}
+.f5d2{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    
+    color: #FFFFFF;
+    
+}
+.f5c2{
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: right;
+    
+    color: #FFFFFF;
+}
+.f5c1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: right;
+    
+    color: #FFFFFF;
+}
+.zalo{
+    display: flex;
+}
+/* display: flex; */
+.zalo_con{
+    font-family: 'Montserrat';
+    font-style: normal;
+
+    font-size: 15px;
+    line-height: 18px;
+    
+    color: #FFFFFF;
+}
+.zalo_img{
+    padding-right: 20px;
 }
