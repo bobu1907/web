@@ -218,3 +218,8 @@
     white-space: 2cm;
     color: #000000;
 }
+.tbS3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
