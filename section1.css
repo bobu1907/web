@@ -1,3 +1,4 @@
+
 .header{
     position:fixed;
     width: 100%;
@@ -242,7 +243,7 @@
     line-height: 37px;
     /* identical to box height */
     left: 90px;
-    top: -155px;
+    top: -137px;
     color: #209090;
     z-index: 2;
 }
