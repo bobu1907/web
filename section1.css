@@ -149,7 +149,7 @@ border-style: solid; */
     height:2cm;
 }
 
-@media (max-width:992px){
+/* @media (max-width:992px){
     .section1{
         position: relative;
         background:url(img_section/imgS1/bg2.png) no-repeat;
@@ -162,8 +162,6 @@ border-style: solid; */
         margin-right: 3%;
         top: 240px;
         padding-left: 0;
-
-        /* display: none; */
     }
     .option ul li img{
         position: absolute;
@@ -190,7 +188,7 @@ border-style: solid; */
         padding-top: 40px;
         color: #209090;
     }
-}
+} */
 
 
 
