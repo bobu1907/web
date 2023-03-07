@@ -94,6 +94,7 @@ border-style: solid; */
 
 
 @media (max-width:992px){
+
     .c2{
         font-size:0px;
     }
@@ -108,7 +109,7 @@ border-style: solid; */
     }
 }
 
-.option{
+/* .option{
     position:absolute;
     max-width: 1440px;
     margin: auto;
@@ -131,7 +132,6 @@ border-style: solid; */
     background:url(img_section/imgS1/Rectangle4.png) no-repeat;
     width:190px;
     height: 110px;
-
 }
 
 .option ul li p{
@@ -147,50 +147,46 @@ border-style: solid; */
     margin-left: 50px;
     margin-top: -40px;
     height:2cm;
+} */
+
+#optionS{
+    width: 100%;
+}
+#option{
+    background:url(img_section/imgS1/Rectangle4.png) no-repeat;
+    width:220px;
+    height: 110px;
+}
+#option img{
+    height:2cm;
+    margin-top: -25px;
+    margin-bottom: 10px;
+    margin-left: 20%;
+
+    justify-content: space-between;
+}
+#option p{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #209090;
+
+    width: 90%;
 }
 
-@media (max-width:992px){
+@media (max-width:994px){
+
     .section1{
-        position: relative;
-        background:url(img_section/imgS1/bg2.png) no-repeat;
-        height: 406px;
-        background-size:cover ;
-        background-position: center;
+        height: 100%;
     }
-    .option{
-        max-width:992px;
-        margin-right: 3%;
-        top: 240px;
-        padding-left: 0;
-    }
-    .option ul li img{
-        position: absolute;
-        margin-left: 0;
-        margin-top: 0;
-        height:1cm;
-        padding-left: 40px;
-    }
-    .option ul li{
-        display: flex;
-        list-style: none;
-        margin-left: 0;
+
+    #option{
         background:url(img_section/imgS1/Rectangle4.png) no-repeat;
-        width:110px;
-        height: 80px;
-    
-    }
-    .option ul li p{
-        width: 100px;
-        font-size: 9px;
-        line-height: 7px;
-        text-align: center;
-        padding-left:20px ;
-        padding-top: 40px;
-        color: #209090;
+        width:190px;
+        height: 170px;
     }
 }
-
-
 
 
 
@@ -276,6 +272,7 @@ border-style: solid; */
 }
 
 @media (max-width:992px){
+
     .tbSec2{
         position: absolute;
         width: 80px;
