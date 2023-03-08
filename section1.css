@@ -526,7 +526,7 @@ border-style: solid; */
 .mamNon2{
     position:absolute;
     
-    left: 200px;
+    left: 13%;
     top: 2380px;
 
     z-index: 2;
@@ -535,15 +535,16 @@ border-style: solid; */
 .mamNon3{
     position:absolute;
     
-    left: 570px;
+    left: 37%;
     top: 2730px;
 
     z-index: 3;
     
 }
 .s4{
-    padding-left: 790px;
-    margin-top: -50px;
+    padding-left: 55%;
+
+    height: 100%;
 }
 .s4c1{
 
@@ -609,7 +610,7 @@ border-style: solid; */
 }
 
 .shops tr td{
-    padding:20px;
+    padding: 10px;
 }
 @media (max-width:992px){
     .mamNon1{
@@ -624,8 +625,8 @@ border-style: solid; */
     .s4{
         padding-left: 0;
         margin-top: 120px;
-        width: 380px;
-        height: 600px;
+        width: 100%;
+        height: 100%;
     }
     .shops tr td{
         padding:0px;
@@ -760,6 +761,7 @@ footer{
 @media (max-width:992px){
     footer{
         width: 100%;
+        height: 400px;
     }
     .f5d1{
         padding-top: 0;
