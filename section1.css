@@ -72,11 +72,12 @@ body{
 .section1{
     position: relative;
     background:url(img_section/imgS1/bg2.png) no-repeat;
-    height: 946px;
+    height: 100%;
     background-size:cover ;
     background-position: center;
-}
+    padding-bottom: 10%;
 
+}
 .c1{
     font-weight: 800;
     font-size: 30px;
