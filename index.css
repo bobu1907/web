@@ -50,6 +50,7 @@ body{
 
 .logo{
     transform: rotate(4deg);
+    padding-bottom: 20px;
     animation: mlem 0.5s forwards;
   }
   
