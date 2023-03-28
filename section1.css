@@ -24,7 +24,7 @@ body{
 
 #back{
     position:absolute;
-    width: 116px;
+    width: 140px;
     height: 18px;
     left: 10%;
     top: 18px;
@@ -36,7 +36,6 @@ body{
     color: #209090;
 
 }
-
 .logo2{
     position:relative;
     width: 0px;
@@ -273,16 +272,14 @@ body{
 
 
 
-
-
-
-/* .section3{
+.section3{
     position: relative;
     background:url(img_section/imgS3/logo.png) no-repeat;
     height: 930px;
 
     background-position: center;
     width: 100%;
+    background-color: #FFFFFF;
 }
 .s3c1{  
     padding-top: 120px;
@@ -437,7 +434,7 @@ body{
         font-weight: 800;
         font-size: 15px;    
     }
-} */
+}
 
 
 
@@ -478,8 +475,11 @@ body{
 
 
 
-
-/* .mamNon1{
+#SS4{
+    background-color: #FFFFFF;
+    padding-bottom: 100px;
+}
+.mamNon1{
     position:absolute;
     top: 2490px;
     left: 0px;
@@ -683,7 +683,7 @@ body{
         align-items: center;
         text-align: center;
     }
-} */
+}
 
 
 
@@ -708,16 +708,14 @@ body{
 
 
 
-/* footer{
+footer{
     width: 100%;
     height: 300px;
     background: #209090;
-    
 }
 .f5{
     width: 100%;
     height: 300px;
-    margin-top: 200px;
     
 }
 .f5d1{
@@ -804,7 +802,7 @@ body{
     .f5d2{
         padding-top: 0;
     }
-} */
+}
 
 
 
