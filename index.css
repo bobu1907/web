@@ -1,7 +1,7 @@
 *{
 margin: 0;
 padding: 0;
-box-sizing: border-box;
+BOX-sizing: border-BOX;
 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
@@ -62,16 +62,16 @@ body{
     }
 }
 
-#box{
+#BOX{
     margin-top: 120px;
 }
 
 
-#box1{
+#BOX1{
     margin-top: 200px;
     text-align: right;
 }
-#box1 button{
+#BOX1 button{
     position: relative;
     border: none;
     background-color: transparent;
@@ -84,12 +84,12 @@ body{
 
 
 
-#box2{
+#BOX2{
     text-align: center;
 }
 
 @media (max-width:1230px){
-    #box2{    
+    #BOX2{    
         opacity: 0;
         width: 0px;
         height: 0px;
@@ -97,23 +97,23 @@ body{
 
 }
 @media (max-width:580px){
-    #box1{    
+    #BOX1{    
         text-align: center;
         margin-top: 0;
     }
 }
 @media (max-width:580px){
-    #box #box3{
+    #BOX #BOX3{
         margin-top: 20px;
         text-align: center;
     }
 }
 
-#box3{
+#BOX3{
     margin-top: 200px;
     text-align: left;
 }
-#box3 button{
+#BOX3 button{
     border: none;
     background-color: transparent;
 
@@ -145,7 +145,7 @@ button {
 }
       
 
-#box1 button::after {
+#BOX1 button::after {
     content: "";
     display: block;
     position: absolute;
@@ -156,14 +156,14 @@ button {
     border-radius: 3px;
     transition: width 0.5s ease-in-out;
 }
-#box1 button::after {
-    bottom: -10px;
+#BOX1 button::after {
+    bottom: 0;
 }
-#box1 button:hover::after {
+#BOX1 button:hover::after {
     width: 100%;
 }
 
-#box3 button::after {
+#BOX3 button::after {
     content: "";
     display: block;
     position: absolute;
@@ -174,10 +174,10 @@ button {
     border-radius: 3px;
     transition: width 0.5s  ease-in-out;
 }
-#box3 button::after {
+#BOX3 button::after {
     bottom: 0;
 }
-#box3 button:hover::after {
+#BOX3 button:hover::after {
     width: 100%;
 }
 
