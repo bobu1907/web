@@ -101,7 +101,7 @@ body{
 
 @media (max-width:992px){
 
-    #tbS1 .c2{
+    #tbS1{
         display: none;
     }
     #tbS1 .s1 .c1{
@@ -111,7 +111,7 @@ body{
         padding-left: 0;
     }
     #S1{
-       margin-top: 50px;
+       padding-top: 120px;
     }
     #tbS1 #imgMayTinh{
         display: none;
@@ -240,7 +240,7 @@ body{
     .tbSec2{
         position: absolute;
         width: 90%;
-        left: 10%;
+        left: 13%;
         top: 100px  ;
         z-index: 2;
     }
@@ -388,7 +388,7 @@ body{
     .s3c3{
         position: absolute;
         top: 40%;
-        left: 0;
+        left: 1%;
     
         width:100%;
     }
