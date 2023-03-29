@@ -51,12 +51,12 @@ body{
 .logo{
     transform: rotate(4deg);
     padding-bottom: 20px;
-    animation: mlem 0.5s forwards;
+    animation: mlem 1s forwards;
   }
   
 @keyframes mlem {
     from {
-        transform: rotate(4deg);
+        transform: rotate(-9000deg);
     }
     to {
         transform: rotate(104deg);
