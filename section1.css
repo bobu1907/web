@@ -531,7 +531,7 @@ body{
     width: 80%;
 }
 #BoxS4{
-    width: 80%;
+    width: 100%;
 }
 #BoxS4_2{
     width: 80%;
@@ -641,31 +641,30 @@ body{
 
     #s4c4{
         width: 100%;
-        padding: 0;
+        padding: 10px;
         margin-right: 0;
         height:100%;
         line-height: 25px;
     }
     #s4c5{
         width: 100%;
-        padding: 0;
+        padding: 10px;
         margin-right: 0;
         height:100%;
         line-height: 25px;
     }
     #s4c6{
-        width: 100%;
-        padding: 0;
+        padding: 10px;
         margin-right: 0;
         height:100%;
         line-height: 25px;
     }
     #s4c3{
-        width: 100%;
-        padding: 0;
+        padding: 10px;
         margin-right: 0;
         height:100%;
         line-height: 25px;
+        letter-spacing: 1px;
     }
 
     .tiem ul li{
