@@ -11,7 +11,6 @@ body{
     background-position:center;
     background-size: cover;
 }
-
 .menu{
     position:fixed;
     width: 100%;
@@ -36,6 +35,19 @@ body{
 
     color: #209090;
 }
+#back{
+    position:absolute;
+    width: 140px;
+    height: 18px;
+    left: 10%;
+    top: 18px;
+    
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #209090;
+}
 #back:hover{
     text-decoration: none;
 }
@@ -46,24 +58,73 @@ body{
     left: 99%;
     top: 15px;
     transform: rotate(104deg);
+}
+@media (max-width:992px){
+    .back{
+        left: 10%;
     }
-    
-    @media (max-width:992px){
-        .back{
-            left: 10%;
-        }
-    }
-
-
-
-
-#S1{
-    margin-top: 50px;
 }
 
 
 
 
+/* Section one */
+#S1{
+    padding-top: 150px;
+    text-align:center;
+    border: black solid;
+}
+#aaa{
+    border: black solid;
+}
+/* Section one end */
+
+
+
+/* Section two */
+#S2{
+    margin-top: 50px;
+    height:  600px;
+    width: 100%;
+    background:url(imgBaoGia/MaskGroup.png) no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+#thinking{
+    padding-top: 20%;
+}
+/* Section two end */
+
+
+
+/* Section three */
+#S3 .d1{
+    margin-top: 50px;
+    text-align: center;
+}
+#S3 .d2{
+    margin-top: 50px;
+    height:  468.36px;
+    width: 805.5px;
+    background:url(imgBaoGia/S3Group.png) no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+}
+#S3 .d2 ul{
+    margin-top: 50px;
+    height:  468.36px;
+    width: 805.5px;
+    padding-left: 20%;
+}
+/* Section three end */
+
+
+
+/* Section four  */
+#S4{
+    margin-top: 50px;
+}
+/* Section four end */
 
 
 
@@ -82,16 +143,7 @@ body{
 
 
 
-
-
-
-
-
-
-
-
-
-/* footer{
+footer{
     width: 100%;
     height: 300px;
     background: #209090;
@@ -185,5 +237,5 @@ body{
     .f5d2{
         padding-top: 0;
     }
-} */
+}
 
