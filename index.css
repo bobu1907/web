@@ -56,7 +56,7 @@ body{
   
 @keyframes mlem {
     from {
-        transform: rotate(-9000deg);
+        transform: rotate(0deg);
     }
     to {
         transform: rotate(104deg);
