@@ -1,0 +1,187 @@
+.menu{
+    position:fixed;
+    width: 100%;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+
+    z-index: 10;
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+#back{
+    position:absolute;
+    width: 140px;
+    height: 18px;
+    left: 10%;
+    top: 18px;
+    
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #209090;
+}
+#back:hover{
+    text-decoration: none;
+}
+.logo2{
+    position:relative;
+    width: 0px;
+    height: 0px;
+    left: 99%;
+    top: 15px;
+    transform: rotate(104deg);
+    }
+    
+    @media (max-width:992px){
+        .back{
+            left: 10%;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bgfull{
+    position: relative;
+    background:url(imgBaoGia/bg2\ .png) no-repeat;
+    height:  4871px;
+    width: 100%;
+    background-size:cover ;
+    background-position: center;
+    padding-top: 136px;
+
+}
+
+#S1 .row .col-6{
+    text-align: center;
+    align-items: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    height: 300px;
+    background: #209090;
+}
+.f5{
+    width: 100%;
+    height: 300px;
+    
+}
+.f5d1{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.f5d2{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    
+    color: #FFFFFF;
+    
+}
+.f5c2{
+
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: right;
+    
+    color: #FFFFFF;
+    
+}
+.f5c1{
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: right;
+    
+    color: #FFFFFF;
+    
+}
+.zalo{
+    display: flex;
+    
+    width: 30%;
+}
+.zalo_con{
+    
+    font-size: 15px;
+    line-height: 18px;
+    
+    color: #FFFFFF;
+}
+.zalo_img{
+    padding-right: 15px;
+    
+}
+
+@media (max-width:992px){
+    footer{
+        height: 400px;
+    }
+    .f5d1{
+        padding-top: 0;
+        display: block;
+    }
+    .f5c1{
+        text-align: center;
+    }
+    .f5c2{
+        text-align: center;
+    }
+    .imgFooter{
+        text-align: center;
+    }
+    .Zalo{
+        width: 100%;
+        margin: auto;
+        padding:10px;
+    }
+
+    .f5d2{
+        padding-top: 0;
+    }
+}
+
