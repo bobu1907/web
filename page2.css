@@ -71,8 +71,55 @@ body{
 /* Section one */
 #S1{
     padding-top: 150px;
-    text-align:center;
     border: black solid;
+}
+#S1 .t1_1{
+    display: flex;
+}
+#S1 .t1_1 .t1_1_1{
+    font-weight: 900;
+    font-size: 90px;
+    line-height: 123px;
+    
+    color: #209090;
+}
+#S1 .t1_1 .t1_1_2{
+    padding-top: 5.5%;
+    padding-left: 2%;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+    
+    color: #209090;
+}
+#S1 .t1_2{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 23px;
+    
+    text-align: justify;
+    
+    color: #000000;
+}
+#S1 .t3 .t3_1{
+    padding-left: 15%;
+    padding-right: 15%;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    
+    color: #209090;
+}
+#S1 .row{
+    text-align: center;
+}
+#S1 .t3_2{
+    font-weight: 800;
+    font-size: 23.5016px;
+    line-height: 29px;    
+    
+    color: #209090;
 }
 #aaa{
     border: black solid;
@@ -90,6 +137,34 @@ body{
     background-position:center;
     background-size: cover;
 }
+#S2 .box{
+    padding-top: 30%;
+    justify-content: center;
+    border: black solid;
+    width: 600px;
+}
+#S2 .d1{
+    width: 578px;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 33px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    transform: rotate(-0.26deg);
+}
+#S2 .d2{
+    padding-top: 50px;
+    padding-left: 10%;
+}
+#S2 .d2 p{
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 35px;
+    
+    color: #FFFFFF;
+}
 #thinking{
     padding-top: 20%;
 }
@@ -100,7 +175,14 @@ body{
 /* Section three */
 #S3 .d1{
     margin-top: 50px;
+
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
     text-align: center;
+    
+    color: #209090;
+    
 }
 #S3 .d2{
     margin-top: 50px;
@@ -111,11 +193,19 @@ body{
     margin-right: auto;
 }
 #S3 .d2 ul{
-    margin-top: 50px;
-    height:  468.36px;
-    width: 805.5px;
-    padding-left: 20%;
+    padding-top: 15%;
 }
+#S3 .d2 ul li{
+    list-style-type: none;
+    padding-left: 16%;
+
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+
+    color: #209090;
+}
+
 /* Section three end */
 
 
@@ -123,6 +213,13 @@ body{
 /* Section four  */
 #S4{
     margin-top: 50px;
+}
+#S4 p{
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+    
+    color: #209090;
 }
 /* Section four end */
 
@@ -132,7 +229,26 @@ body{
 
 
 
+/* Section five  */
+#S5 .cnt{
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    
+    color: #209090;  
+}
+#S5 .step1 .b{
+    padding-left: 5%;
+    border: black solid;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
 
+    color: #209090;
+}
+#S5 .step1
+/* Section five end */
 
 
 
