@@ -470,6 +470,8 @@ body{
 /* eEnd end */
 
 
+
+/* B3 */
 #S5 .step1 .qc{
     font-weight: 900;
     font-size: 15px;
@@ -481,11 +483,22 @@ body{
     color: #000000;
 }
 
+#S5 .step1 .B1{
+    width: 100%;
+    background-color: #209090;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#S5 .step1 .B1 .b16{
+    width: 16%;
 
+}
+#S5 .step1 .B1 .b24{
+    width: 24%;
 
-
-/* B3 */
-
+}
 
 /* Section five end */
 
