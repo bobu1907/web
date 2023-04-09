@@ -393,6 +393,7 @@ body{
     padding:10px;
     margin-left: 12%;
     margin-right: 12%;
+    
     background: #F8F8F8;
     filter: drop-shadow(4px 4px 20px rgba(0, 0, 0, 0.25));
     border-bottom-left-radius: 20px;
@@ -401,6 +402,7 @@ body{
 #S5 .step1 .G2 .g{
     display: flex;
     padding:5px;
+
     border-bottom: 1px solid #C7C7C7;
 }
 #S5 .step1 .G2 .g .g1{
@@ -431,6 +433,52 @@ body{
     color: #000000;
 }
 
+
+/* gEnd */
+#S5 .step1 .G2 .gEnd{
+    display: flex;
+    padding:5px;
+}
+#S5 .step1 .G2 .gEnd .g1{
+    width: 50%;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    
+    color: #000000;
+    padding-left: 3%;
+}
+#S5 .step1 .G2 .gEnd .g2{
+    width: 25%;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    
+    color: #000000;
+}
+#S5 .step1 .G2 .gEnd .g3{
+    width: 25%;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    
+    color: #000000;
+}
+/* eEnd end */
+
+
+#S5 .step1 .qc{
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    /* or 133% */
+    
+    text-align: center;
+    
+    color: #000000;
+}
 /* Section five end */
 
 
