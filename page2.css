@@ -110,11 +110,12 @@ body{
     color: #209090;
 }
 
-#S1 .t3_2{
+#S1 .t3{
     font-weight: 800;
     font-size: 23.5016px;
     line-height: 29px;    
     
+    text-align: center;
     color: #209090;
 }
 #aaa{
@@ -479,6 +480,13 @@ body{
     
     color: #000000;
 }
+
+
+
+
+/* B3 */
+
+
 /* Section five end */
 
 
