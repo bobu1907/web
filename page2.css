@@ -119,10 +119,56 @@ body{
     text-align: center;
     color: #209090;
 }
+
 #aaa{
     padding-top: 10%;
 }
+#hinhS1{
+    width: 100%;
+}
+@media (max-width:470px){
+    #S1 .t1_1 .t1_1_1{
+        font-size: 60px;
+    }
+    #S1 .t1_1 .t1_1_2{
+        padding-top:20px;
+        padding-left: 0;
+        font-size: 20px;    
+    }
+    #S1 .t1_2{
+        font-size: 10px;
+        line-height: 23px;
+    }
 
+
+
+    #S1 .t3 .t3_1{
+        font-size: 15px;
+    }
+}
+@media (max-width:360px){
+    #S1 .t1_1 .t1_1_1{
+        padding-top: 20px;
+        font-size: 50px;
+    }
+    #S1 .t1_1 .t1_1_2{
+        padding-top:60px;
+        padding-left: 0;
+        font-size: 10px;    
+    }
+
+
+
+    #S1 .t3 .t3_1{
+        display: none;
+    }
+    #S1 .t3{
+        font-size:15px ;
+    }
+    #S1 .t3 img{
+        width: 100px;
+    }
+}
 /* Section one end */
 
 
@@ -139,10 +185,10 @@ body{
 #S2 .box{
     padding-top: 30%;
     justify-content: center;
-    width: 600px;
+    width: 100%;
 }
 #S2 .d1{
-    width: 578px;
+    width: 100%;
     font-weight: 800;
     font-size: 30px;
     line-height: 33px;
@@ -166,9 +212,21 @@ body{
 #thinking{
     padding-top: 20%;
 }
-@media (max-width:770px){
+@media (max-width:990px){
     #thinking{
         display: none;
+    }
+}
+@media (max-width:460px){
+    #S2 .d1{
+        font-size: 20px;
+    }
+    #S2 .d2{
+        padding-top: 5px;
+        padding-left: 5%;
+    }
+    #S2 .d2 p{
+        font-size: 10px;
     }
 }
 /* Section two end */
@@ -189,11 +247,11 @@ body{
 }
 #S3 .d2{
     margin-top: 50px;
-    height:  468.36px;
-    width: 805.5px;
+    height:  100%;
+    width:100%;
     background:url(imgBaoGia/S3Group.png) no-repeat;
-    margin-left: auto;
-    margin-right: auto;
+    background-size: 100%;
+    padding-bottom: 200px;
 }
 #S3 .d2 ul{
     padding-top: 15%;
@@ -208,7 +266,22 @@ body{
 
     color: #209090;
 }
-
+@media (max-width:769px){
+    #S3 .d2 ul{
+        padding-top: 5%;
+    }
+    #S3 .d2 ul li{
+        padding-left: 0;
+    }
+    #S3 .d1{
+        font-size: 20px;       
+    }
+    #S3 .d2{
+        margin-top: 0px;
+        padding-bottom: 0px;
+        background:none;
+    }
+}
 /* Section three end */
 
 
@@ -224,7 +297,7 @@ body{
     padding-bottom: 12%;
     padding-left: 20%;
     padding-right: 20%;
-    width: 130%;
+    width: 555px;
 }
 #S4 p{
     font-weight: 800;
@@ -258,6 +331,17 @@ body{
 #S4 #laptop{
     width: 100%;
 }
+@media (max-width:1200px){
+    #S4 .Landing{
+        display: none;
+    }
+    #S4 p{
+        font-size: 20px;
+
+        text-align: center;
+        
+    }
+}
 /* Section four end */
 
 
@@ -276,7 +360,11 @@ body{
     color: #209090;  
     
 }
-
+@media (max-width:470px){
+    #S5 .cnt{
+        font-size: 20px; 
+    }
+}
 #S5 .step1 .b{
     padding-left: 5%;
     font-weight: 800;
@@ -284,6 +372,16 @@ body{
     line-height: 37px;
 
     color: #209090;
+}
+@media (max-width:470px){
+    #S5 .step1 .b{
+        padding-left: 2%;
+        font-size: 20px;
+    }
+    #S5 .step1 .qc{
+        padding-top: 5%;
+        font-size: 10px;
+    }
 }
 #S5 .step1 .box{
     padding-top: 50px;
@@ -323,6 +421,14 @@ body{
     }
     #S5 .step1 .box #btn2 p{
         width: 100%;
+    }
+}
+@media (max-width:768px){
+    #S5 .step1 .box{
+        display: none;
+    }
+    #S5 .step1 #box{
+        display: none;
     }
 }
 #S5 .step1 #btn2 p{
@@ -701,6 +807,9 @@ footer{
     .f5c2{
         text-align: center;
     }
+    .f5d2{
+        text-align: center;
+    }
     .imgFooter{
         text-align: center;
     }
@@ -714,4 +823,3 @@ footer{
         padding-top: 0;
     }
 }
-
