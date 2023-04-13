@@ -218,14 +218,15 @@ body{
 }
 @media (max-width:460px){
     #S2 .d1{
-        font-size: 30px;
+        font-size: 20px;
     }
     #S2 .d2{
         padding-top: 5px;
         padding-left: 5%;
     }
     #S2 .d2 p{
-        font-size: 15px;
+        font-size: 10px;
+        line-height: 15px;
     }
 }
 /* Section two end */
@@ -235,13 +236,12 @@ body{
 /* Section three */
 #S3 .d1{
     margin-top: 50px;
-
     font-weight: 700;
     font-size: 30px;
+
     text-align: center;
     
     color: #209090;
-    
 }
 #S3 .d2{
     margin-top: 50px;
@@ -275,10 +275,10 @@ body{
     }
     #S3 .d2 ul li{
         padding-left: 0;
-        font-size: 15px;
+        font-size: 10px;
     }
     #S3 .d1{
-        font-size: 30px;       
+        font-size: 20px;       
     }
     #S3 .d2{
         margin-top: 0px;
@@ -388,11 +388,9 @@ body{
 @media (max-width:470px){
     #S5 .step1 .b{
         padding-left: 2%;
-        font-size: 20px;
-    }
-    #S5 .step1 .qc{
-        padding-top: 5%;
         font-size: 10px;
+        line-height: 15px;
+        margin: 0;
     }
 }
 #S5 .step1 .box{
@@ -632,17 +630,21 @@ body{
 
 
 /* B3 */
-#S5 .step1 .qc{
+#S5 .step1 .Qc{
     font-weight: 900;
     font-size: 15px;
-    line-height: 20px;
-    /* or 133% */
-    
+    line-height: 20px;    
     text-align: center;
-    
-    color: #000000;
 }
-
+@media (max-width:470px){
+    #S5 .step1 .Qc{
+        padding-top: 15%;
+        font-weight: 900;
+        font-size: 8px;
+        line-height:10px;
+        
+    }
+}
 #S5 .step1 .B1{
     width: 100%;
     background-color: #209090;
